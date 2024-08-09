@@ -7,7 +7,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 "react-responsive-gallery": "^4.0.0"
 "tailwindcss": "^3.4.9"
 
+# Live Demo
+https://hetvi-014.github.io/image-gallery/
+
 ![image](https://github.com/user-attachments/assets/a94579a7-d963-4463-9e19-7efcc36e5172)
+
+
 
 # To run this project 
 ### `npm install`
