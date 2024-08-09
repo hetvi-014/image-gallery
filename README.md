@@ -1,7 +1,17 @@
-<<<<<<< HEAD
+
 # image-gallery
-=======
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+# packages-used
+"react-responsive-gallery": "^4.0.0"
+"tailwindcss": "^3.4.9"
+
+![image](https://github.com/user-attachments/assets/a94579a7-d963-4463-9e19-7efcc36e5172)
+
+# To run this project 
+### `npm install`
+### `npm start` 
 
 ## Available Scripts
 
