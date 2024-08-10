@@ -9,7 +9,7 @@ function App() {
 
   const fetchImages = useCallback(async () => {
     const response = await axios.get(
-      `https://picsum.photos/v2/list?page=${page}&limit=20`
+      ` https://picsum.photos/v2/list?page=${page}&limit=20`
     );
     setImages((prevImages) => [
       ...prevImages,
@@ -51,19 +51,19 @@ function App() {
       <header className='h-20 flex w-full '>
         <div className='h-full flex items-center w-[20%]'>
           <img
-            className='w-auto h-full '
+            className='w-auto md:h-full sm:h-auto p-4'
             src='https://seeklogo.com/images/A/apple-photos-logo-20DBB81F0E-seeklogo.com.png'
             alt='logo'
           />
-          <h2 className='text-xl'>LOGO</h2>
+          <h2 className='md:text-xl sm:text-sm '>LOGO</h2>
         </div>
         <div className='flex justify-center items-center w-[60%] h-full'>
-          <h1 className='text-4xl font-bold'>Image Gallery</h1>
+          <h1 className='sm:text-4xl font-bold'>Image Gallery</h1>
         </div>
-        <div className='flex items-center justify-end w-[20%] mr-4'>
+        <div className='flex  items-center justify-end w-[20%] p-4 '>
           <button
             onClick={toggleScrollType}
-            className='px-4 py-2 bg-blue-500 text-white rounded-md'
+            className='py-2 px-2 whitespace-nowrap   text-xs sm:text-base bg-blue-500 text-white rounded-md'
           >
             Scroll Type: {scrollType === 'infinite' ? 'Infinite' : 'Load More'}
           </button>
